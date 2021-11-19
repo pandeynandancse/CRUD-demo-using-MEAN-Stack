@@ -1,0 +1,56 @@
+<div class="container">
+
+<div class="title-group">
+    <h1 class="mat-h1">Add People </h1>
+    <mat-divider fxFlex="1 0"></mat-divider><br>
+
+  <form [formGroup]="reactiveForm" (ngSubmit)="addPeople()" >
+
+    <table class="table table-striped">
+
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+               
+            </tr>
+        </thead>
+
+
+
+        <tbody>
+
+            <tr>
+                <td>
+                    <input  placeholder="First Name" formControlName="first_name" required>
+                </td>
+
+                <td>
+                    <input  placeholder="Last Name" formControlName="last_name" required>
+                </td>
+
+                <td>
+                    <input  placeholder="Email"formControlName="email" required>
+                </td>
+
+                <td>
+                    <input  placeholder="Mobile" formControlName="mobile" required>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+  
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+
+
+  </form>
+
+</div>
+
+</div>
