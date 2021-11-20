@@ -9,7 +9,7 @@ a. CRUD  <br>
 b. Pagination  <br>
 c. Search <br>
 d. SPA <br>
-e. Swagger UI for API docs and Interaction with APIs <br>
+e. Swagger UI for API docs and Interaction with APIs <br> <br>
 
 
 Project Explanation Youtube Link: https://youtu.be/XYwYVAR89Z0
